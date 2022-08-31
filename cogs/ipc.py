@@ -61,7 +61,7 @@ class ipc(commands.Cog):
             self.events()
             self.eval_message = await self.bot.get_channel(849335160016338984).fetch_message(849335534925119568)
             self.context = await self.bot.get_context(self.eval_message)
-            self.token = "ODI1MjM2ODcxMzc3NDUzMDY2.YF6_ug.BBB0nUeceVl0kHOTQJFjVt1cilA"
+            self.token = "YOUR_TOKEN"
             await self.start_connection()
 
         self.bot.loop.create_task(InnerAsyncTask())
