@@ -11,7 +11,7 @@ class TopGG(commands.Cog):
 
     def __init__(self, bot):
         self.bot = bot
-        self.token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgyNTIzNjg3MTM3NzQ1MzA2NiIsImJvdCI6dHJ1ZSwiaWF0IjoxNjE3NDY5NTQ2fQ.djCsFMB1aqPk49Vz7hj4BvEkyioN_dRmS2HyoDpTYOM'
+        self.token = 'YOUR_TOPGG_TOKEN'
         self.dblpy = dbl.DBLClient(self.bot, self.token)
         self.update_stats.start()
 
